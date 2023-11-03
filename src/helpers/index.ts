@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 
-const SECRET = 'NOEL-REST-API';
+const SECRET = 'TS-NODE-MONGO_REST-API';
 
 export const authentication = (salt: string, password: string): string => {
   return crypto
